@@ -1,0 +1,103 @@
+.botoes{ /* Input, submit */
+    display: flex;
+    justify-content: space-between;
+}
+.card-upper-part{ /* Parte superior do card */
+    display: flex;
+    justify-content: space-between;
+}
+.tasks{ /* Card */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.description{ /* Descrição */
+    height: 8vh;
+}
+#notetext{ /* Input de texto */
+    border-color: rgb(182, 174, 174);
+}
+#notetext:focus{
+    border-color: #0d6efd;
+    box-shadow: none;
+}
+#button-addon2{ /* Botão de submit */
+    background-color:rgb(182, 174, 174); 
+    border-color: rgb(182, 174, 174); 
+    color: rgb(0, 0, 0); 
+    font-weight: 600;
+}
+#button-addon2:hover{
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #fff;
+}
+#taskTitle{ /* Input de título */
+    border-color: rgb(182, 174, 174);
+}
+#taskTitle:focus{
+    border-color: #0d6efd;
+    box-shadow: none;
+}
+#updateTaskTitle{ /* Atualizar titulo */
+    margin-bottom: 10px;
+    border-color: rgb(182, 174, 174);
+}
+#updateTaskTitle:focus{
+    border-color: #0d6efd;
+    box-shadow: none;
+}
+#updateTaskDescription{ /* Atualizar descrição */
+    border-color: rgb(182, 174, 174);
+}
+#updateTaskDescription:focus{
+    border-color: #0d6efd;
+    box-shadow: none;
+}
+#FecharExpandir{ /* Botão de fechar expandir */
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #fff;
+}
+#FecharExpandir:hover{
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+    color: #fff;
+}
+.btn-close{ /* Todos botões de fechar em X */
+    box-shadow: none;
+    opacity: 0.5;
+}
+.btn-close:hover{
+    box-shadow: none;
+    opacity: 0.75;
+}
+.btn-close:focus{
+    box-shadow: none;
+    opacity: 0.5;
+}
+.btn-close:focus:hover{
+    box-shadow: none;
+    opacity: 1.0;
+}
+.form-control{ /* Todos inputs de texto */
+    background-color: #343a40;
+    color: #fff;
+}
+.form-control:focus{
+    background-color: #343a40;
+    color: #fff;
+}
+.ExpandirAndBarra{ /* Botão de expandir e barra de progresso */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown-menu { /* Dropdown de opções */
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
